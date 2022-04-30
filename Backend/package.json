@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "cli": "^1.0.1",
+    "debug": "^4.3.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "heroku": "^7.59.4",
+    "json-server": "^0.17.0"
+  },
+  "scripts": {
+    "build:production": "node --version",
+    "start": "node server.js",
+    "build": "webpack"
+  },
+  "engines": {
+    "node": "v16.13.2",
+    "npm": "8.1.2"
+  }
+}
